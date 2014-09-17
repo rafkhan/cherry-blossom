@@ -13,7 +13,7 @@ a {
 #blossom-header-container {
   height: 100%;
   width: 100%;
-  background-image: url('/img/cb-bg.jpg');
+  background-image: url('../img/cb-bg.jpg');
   background-size: cover;
   overflow: hidden;
 }
