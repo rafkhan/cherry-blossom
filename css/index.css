@@ -12,7 +12,7 @@ a {
   color: white;
 }
 #blossom-header-container {
-  min-height: 100%;
+  height: 100%;
   width: 100%;
   background-image: url('../img/cb-bg.jpg');
   background-size: cover;
@@ -37,7 +37,7 @@ a {
   font-size: 12px;
 }
 #hacker-container {
-  min-height: 110%;
+  height: 110%;
   width: 100%;
   background-image: url('../img/cb2-bg.jpg');
   background-size: cover;
@@ -76,7 +76,7 @@ a {
   color: rgba(255, 255, 255, 0.8);
 }
 #portfolio-container {
-  min-height: 100%;
+  height: 100%;
   width: 100%;
   background-image: url('../img/cb4-bg.jpg');
   background-size: cover;
