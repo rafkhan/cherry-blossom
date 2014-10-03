@@ -94,7 +94,7 @@ a {
   }
 }
 
-#music-container {
+#portfolio-container {
   height: 100%;
   width: 100%;
   background-image: url('../img/cb4-bg.jpg');
@@ -103,10 +103,42 @@ a {
   overflow: hidden;
   position: relative;
 
-  .music-bg-mask {
+  .portfolio-bg-mask {
     height: 100%;
     width: 100%;
     background-color: rgba(224,66,49, 0.7);
+
+    .portfolio {
+      padding: 60px;
+
+      h1 {
+        font-size: 60px;
+        font-weight: 400;
+        padding-bottom: 50px;
+      }
+
+      .item {
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        padding: 5px;
+        width: 250px;
+        display: block;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        text-decoration: none;
+        line-height: 1.3em;
+        border-bottom: 1px solid white;
+        transition: background 150ms ease-out;
+
+        .workplace {
+          display: block;
+          font-size: 25px;
+          line-height: 1.7em;
+        }
+      }
+    }
   }
 }
 
