@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
 html,
 body {
   padding: 0;
@@ -38,7 +39,36 @@ a {
 #hacker-container {
   height: 100%;
   width: 100%;
-  background-color: #008fd4;
+  background-image: url('../img/cb2-bg.jpg');
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+#hacker-container .hacker-bg-mask {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 143, 212, 0.8);
+  text-align: center;
+}
+#hacker-container .hacker-bg-mask .content-container {
+  padding-top: 150px;
+}
+#hacker-container .hacker-bg-mask .content-container .text-container h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+#hacker-container .hacker-bg-mask .content-container .text-container h1.hax {
+  font-size: 80px;
+  margin: 30px 0;
+  font-family: 'Pacifico', cursive;
+}
+#hacker-container .hacker-bg-mask .content-container .fa-github {
+  margin-top: 130px;
+  font-size: 150px;
+  transition: 50ms ease-in-out;
+}
+#hacker-container .hacker-bg-mask .content-container .fa-github:hover {
+  font-size: 170px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
