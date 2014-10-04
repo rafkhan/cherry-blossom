@@ -1,148 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 
-html, body {
-  padding: 0;
-  margin: 0;
-
-  height: 100%;
-  width: 100%;
-
-  color: white;
-}
-
-a {
-  color: white;
-}
-
-#blossom-header-container {
-  height: 100%;
-  width: 100%;
-  background-image: url('../img/cb-bg.jpg');
-  background-size: cover;
-  overflow: hidden;
-
-  #name-header {
-    margin: 30px;
-    padding: 30px;
-    width: 420px;
-    background-color: rgba(0, 0, 0, 0.7);
-
-    h1 {
-      font-size: 60px;
-      font-weight: 400;
-      margin-bottom: 20px;
-    }
-
-    li {
-      line-height: 1.4em;
-      font-size: 20px;
-    }
-
-    h6 {
-      font-size: 12px;
-    }
-  }
-}
-
-#hacker-container {
-  height: 110%;
-  width: 100%;
-  background-image: url('../img/cb2-bg.jpg');
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-
-  .hacker-bg-mask {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,143,212,0.7);
-    text-align: center;
-
-    .content-container {
-      padding-top: 150px;
-
-      .text-container {
-        h1 {
-          font-size: 60px;
-          font-weight: 400;
-        }
-
-        h1#hax {
-          font-size: 80px;
-          margin: 30px 0;
-          font-family: 'Pacifico', cursive;
-        }
-      }
-
-      a {
-        text-decoration: none;
-        color: rgba(255, 255, 255, 0.6);
-      }
-
-      .fa-github {
-        margin-top: 130px;
-        font-size: 150px;
-        transition: 125ms ease-in-out;
-
-        &:hover {
-          font-size: 170px;
-          color: rgba(255, 255, 255, 0.8);
-        }
-      }
-    }
-  }
-}
-
-#portfolio-container {
-  height: 100%;
-  width: 100%;
-  background-image: url('../img/cb4-bg.jpg');
-  background-size: cover;
-
-  overflow: hidden;
-  position: relative;
-
-  .portfolio-bg-mask {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(224,66,49, 0.7);
-
-    .portfolio {
-      padding: 60px;
-
-      h1 {
-        font-size: 60px;
-        font-weight: 400;
-        padding-bottom: 50px;
-      }
-
-      .item {
-        &:hover {
-          background-color: rgba(255, 255, 255, 0.2);
-        }
-
-        padding: 5px;
-        width: 250px;
-        display: block;
-        margin-bottom: 20px;
-        padding-bottom: 20px;
-        text-decoration: none;
-        line-height: 1.3em;
-        border-bottom: 1px solid white;
-        transition: background 150ms ease-out;
-
-        .workplace {
-          display: block;
-          font-size: 25px;
-          line-height: 1.7em;
-        }
-      }
-    }
-  }
-}
-
-
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -196,3 +54,202 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+// *******
+
+html, body {
+  padding: 0;
+  margin: 0;
+
+  height: 100%;
+  width: 100%;
+
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+#blossom-header-container {
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/cb-bg.jpg');
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+
+  #name-header {
+    margin: 30px;
+    padding: 30px;
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    li {
+      line-height: 1.4em;
+      font-size: 20px;
+    }
+
+    h6 {
+      font-size: 12px;
+    }
+  }
+}
+
+#hacker-container {
+  height: 110%;
+  width: 100%;
+  background-image: url('../img/cb2-bg.jpg');
+  background-size: cover;
+  position: relative;
+
+  .hacker-bg-mask {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,143,212,0.7);
+    text-align: center;
+
+    .content-container {
+      padding-top: 150px;
+
+      .text-container {
+        h1 {
+          font-size: 60px;
+          font-weight: 400;
+        }
+
+        h1#hax {
+          font-size: 80px;
+          margin: 30px 0;
+          font-family: 'Pacifico', cursive;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.6);
+      }
+
+      .fa-github {
+        margin-top: 130px;
+        font-size: 150px;
+        transition: 125ms ease-in-out;
+
+        &:hover {
+          font-size: 170px;
+          color: rgba(255, 255, 255, 0.8);
+        }
+      }
+    }
+  }
+}
+
+#portfolio-container {
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/cb4-bg.jpg');
+  background-size: cover;
+  position: relative;
+
+  .portfolio-bg-mask {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(224,66,49, 0.7);
+
+    .portfolio {
+      padding: 60px;
+
+      h1 {
+        padding-bottom: 50px;
+      }
+
+      .item {
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        padding: 5px;
+        width: 250px;
+        display: block;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        text-decoration: none;
+        line-height: 1.3em;
+        border-bottom: 1px solid white;
+        transition: background 150ms ease-out;
+
+        .workplace {
+          display: block;
+          font-size: 25px;
+          line-height: 1.7em;
+        }
+      }
+    }
+  }
+}
+
+#etc {
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/cb5-bg.jpg');
+  background-size: cover;
+  position: relative;
+
+  .bg-mask {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #353535;
+
+    .cool-stuff {
+      padding: 60px;
+
+      h1 {
+        margin-bottom: 50px;
+      }
+
+      ul li {
+        list-style-type: none;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.4em;
+      }
+
+      li.little {
+        font-size: 14px;
+        margin-top: 20px;
+      }
+    }
+
+    .if-u-liek {
+      padding: 60px;
+
+      p {
+        width: 400px;
+        font-size: 14px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #AAA;
+      }
+
+      h3 {
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+
+
+

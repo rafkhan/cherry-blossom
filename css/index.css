@@ -1,120 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
-html,
-body {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-a {
-  color: white;
-}
-#blossom-header-container {
-  height: 100%;
-  width: 100%;
-  background-image: url('../img/cb-bg.jpg');
-  background-size: cover;
-  overflow: hidden;
-}
-#blossom-header-container #name-header {
-  margin: 30px;
-  padding: 30px;
-  width: 420px;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-#blossom-header-container #name-header h1 {
-  font-size: 60px;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-#blossom-header-container #name-header li {
-  line-height: 1.4em;
-  font-size: 20px;
-}
-#blossom-header-container #name-header h6 {
-  font-size: 12px;
-}
-#hacker-container {
-  height: 110%;
-  width: 100%;
-  background-image: url('../img/cb2-bg.jpg');
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-}
-#hacker-container .hacker-bg-mask {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 143, 212, 0.7);
-  text-align: center;
-}
-#hacker-container .hacker-bg-mask .content-container {
-  padding-top: 150px;
-}
-#hacker-container .hacker-bg-mask .content-container .text-container h1 {
-  font-size: 60px;
-  font-weight: 400;
-}
-#hacker-container .hacker-bg-mask .content-container .text-container h1#hax {
-  font-size: 80px;
-  margin: 30px 0;
-  font-family: 'Pacifico', cursive;
-}
-#hacker-container .hacker-bg-mask .content-container a {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
-}
-#hacker-container .hacker-bg-mask .content-container .fa-github {
-  margin-top: 130px;
-  font-size: 150px;
-  transition: 125ms ease-in-out;
-}
-#hacker-container .hacker-bg-mask .content-container .fa-github:hover {
-  font-size: 170px;
-  color: rgba(255, 255, 255, 0.8);
-}
-#portfolio-container {
-  height: 100%;
-  width: 100%;
-  background-image: url('../img/cb4-bg.jpg');
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-}
-#portfolio-container .portfolio-bg-mask {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(224, 66, 49, 0.7);
-}
-#portfolio-container .portfolio-bg-mask .portfolio {
-  padding: 60px;
-}
-#portfolio-container .portfolio-bg-mask .portfolio h1 {
-  font-size: 60px;
-  font-weight: 400;
-  padding-bottom: 50px;
-}
-#portfolio-container .portfolio-bg-mask .portfolio .item {
-  padding: 5px;
-  width: 250px;
-  display: block;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  text-decoration: none;
-  line-height: 1.3em;
-  border-bottom: 1px solid white;
-  transition: background 150ms ease-out;
-}
-#portfolio-container .portfolio-bg-mask .portfolio .item:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-#portfolio-container .portfolio-bg-mask .portfolio .item .workplace {
-  display: block;
-  font-size: 25px;
-  line-height: 1.7em;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -243,4 +128,162 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+a {
+  color: white;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+#blossom-header-container {
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/cb-bg.jpg');
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+#blossom-header-container #name-header {
+  margin: 30px;
+  padding: 30px;
+  width: 420px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#blossom-header-container #name-header h1 {
+  margin-bottom: 20px;
+}
+#blossom-header-container #name-header li {
+  line-height: 1.4em;
+  font-size: 20px;
+}
+#blossom-header-container #name-header h6 {
+  font-size: 12px;
+}
+#hacker-container {
+  height: 110%;
+  width: 100%;
+  background-image: url('../img/cb2-bg.jpg');
+  background-size: cover;
+  position: relative;
+}
+#hacker-container .hacker-bg-mask {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 143, 212, 0.7);
+  text-align: center;
+}
+#hacker-container .hacker-bg-mask .content-container {
+  padding-top: 150px;
+}
+#hacker-container .hacker-bg-mask .content-container .text-container h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+#hacker-container .hacker-bg-mask .content-container .text-container h1#hax {
+  font-size: 80px;
+  margin: 30px 0;
+  font-family: 'Pacifico', cursive;
+}
+#hacker-container .hacker-bg-mask .content-container a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+#hacker-container .hacker-bg-mask .content-container .fa-github {
+  margin-top: 130px;
+  font-size: 150px;
+  transition: 125ms ease-in-out;
+}
+#hacker-container .hacker-bg-mask .content-container .fa-github:hover {
+  font-size: 170px;
+  color: rgba(255, 255, 255, 0.8);
+}
+#portfolio-container {
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/cb4-bg.jpg');
+  background-size: cover;
+  position: relative;
+}
+#portfolio-container .portfolio-bg-mask {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(224, 66, 49, 0.7);
+}
+#portfolio-container .portfolio-bg-mask .portfolio {
+  padding: 60px;
+}
+#portfolio-container .portfolio-bg-mask .portfolio h1 {
+  padding-bottom: 50px;
+}
+#portfolio-container .portfolio-bg-mask .portfolio .item {
+  padding: 5px;
+  width: 250px;
+  display: block;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  line-height: 1.3em;
+  border-bottom: 1px solid white;
+  transition: background 150ms ease-out;
+}
+#portfolio-container .portfolio-bg-mask .portfolio .item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#portfolio-container .portfolio-bg-mask .portfolio .item .workplace {
+  display: block;
+  font-size: 25px;
+  line-height: 1.7em;
+}
+#etc {
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/cb5-bg.jpg');
+  background-size: cover;
+  position: relative;
+}
+#etc .bg-mask {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #353535;
+}
+#etc .bg-mask .cool-stuff {
+  padding: 60px;
+}
+#etc .bg-mask .cool-stuff h1 {
+  margin-bottom: 50px;
+}
+#etc .bg-mask .cool-stuff ul li {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+#etc .bg-mask .cool-stuff li.little {
+  font-size: 14px;
+  margin-top: 20px;
+}
+#etc .bg-mask .if-u-liek {
+  padding: 60px;
+}
+#etc .bg-mask .if-u-liek p {
+  width: 400px;
+  font-size: 14px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #AAA;
+}
+#etc .bg-mask .if-u-liek h3 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
