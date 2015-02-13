@@ -1,3 +1,3 @@
 FROM dockerfile/nginx
-COPY . /var/www/html
+ADD . /var/www/html
 CMD Deployed!
