@@ -1,3 +1,3 @@
 FROM dockerfile/nginx
-ADD . /var/www/html
+ADD cherry-blossom/* /var/www/html
 CMD Deployed!
